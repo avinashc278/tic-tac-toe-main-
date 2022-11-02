@@ -1,0 +1,95 @@
+
+*{
+margin: 0;
+padding: 0;
+}
+nav{
+    background-color: rgb(101, 216, 29);
+    height: 4rem;
+    color: white;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    padding-left: 3rem;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+}
+nav ul button{
+   background-color: lightgreen;
+   height: 2rem;
+   width: 2rem;
+}
+.reseting{
+    float: right;
+    margin-left: 200px;
+    height: 2.5rem;
+    display: flex;
+    
+}
+.reseting:hover {
+    background-color: lightgreen;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.main__container{
+/* background-color: antiquewhite; */
+display: flex;
+justify-content: center;
+margin-top: 80px;
+
+}
+.container{
+display: grid;
+grid-template-rows: repeat(3,10vw);
+grid-template-columns: repeat(3,10vw);
+position: relative;
+}
+.box{
+    border: 2px solid black;
+    font-size: 9vw;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box:hover{
+   background-color: rgb(202, 176, 202);
+}
+.gameinfo{
+    padding: 0 30px;
+}
+.img__box img{
+    height:10rem ;
+    width: 0px;
+    transition: width 1s ease-in-out;
+}
+.br-0{
+    border-right: none;
+}
+.bl-0{
+    border-left: none;
+}
+.bt-0{
+    border-top: none;
+}
+.bb-0{
+    border-bottom: none;
+}
+
+.in__info{
+    font-size: 3rem;
+}
+.in__info button img{
+   height: 5rem;
+  
+}
+.line{
+    background-color: black;
+    width:0;
+    height:3px;
+    position: absolute;
+    transition: width 1.5s ease-in-out;
+}
+
